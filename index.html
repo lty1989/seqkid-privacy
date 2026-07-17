@@ -1,18 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Privacy Policy - SeqKid</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – SeqKid</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      color: #2c2c2c;
+      background: #f9f9f9;
+      padding: 40px 20px 80px;
+    }
+    .container { max-width: 780px; margin: 0 auto; background: #fff; border-radius: 12px; padding: 48px 56px; box-shadow: 0 2px 16px rgba(0,0,0,.07); }
+    h1 { font-size: 1.75rem; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+    .meta { font-size: 0.875rem; color: #888; margin-bottom: 32px; }
+    .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 36px; }
+    .badge { background: #f0f4ff; color: #3a5bd9; font-size: 0.8rem; font-weight: 600; padding: 4px 12px; border-radius: 20px; }
+    .summary-box { background: #e8f8f0; border-left: 4px solid #34b36e; border-radius: 8px; padding: 16px 20px; margin-bottom: 40px; font-weight: 600; color: #1d6b41; }
+    h2 { font-size: 1.125rem; font-weight: 700; color: #1a1a1a; margin: 36px 0 12px; border-bottom: 2px solid #f0f0f0; padding-bottom: 8px; }
+    p { margin-bottom: 14px; }
+    ul, ol { padding-left: 22px; margin-bottom: 14px; }
+    li { margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0 20px; font-size: 0.9rem; }
+    th { background: #f4f6fb; text-align: left; padding: 10px 14px; font-weight: 600; border: 1px solid #e2e6f0; }
+    td { padding: 10px 14px; border: 1px solid #e2e6f0; vertical-align: top; }
+    tr:nth-child(even) td { background: #fafbff; }
+    code { background: #f0f0f0; border-radius: 4px; padding: 2px 6px; font-size: 0.875em; font-family: "SFMono-Regular", Consolas, monospace; }
+    .footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid #eee; font-size: 0.825rem; color: #aaa; text-align: center; }
+    a { color: #3a5bd9; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    @media (max-width: 600px) {
+      .container { padding: 28px 20px; }
+      h1 { font-size: 1.4rem; }
+    }
+  </style>
 </head>
-<body style="max-width:800px;margin:30px auto;padding:0 20px;font-family:Arial;">
-<h1>Privacy Policy for SeqKid - Focus Brain Training</h1>
-<p>Last updated: 2026-07-16</p>
-<p>This app is fully offline without internet access.
-All training data is stored locally on your device only.
-We do NOT collect, upload, transmit any personal user data to any remote server.
-The app only reads built-in local image & audio resources for UI display and sound prompts,
-it will never access your personal photos, contacts or other private files without permission.
-No third-party SDK, advertising, statistics tracking modules are integrated in this software.</p>
-<p>Contact: liutianyi_1989@163.com</p>
+<body>
+<div class="container">
+
+  <h1>Privacy Policy for SeqKid</h1>
+  <p class="meta">
+    <strong>Effective Date:</strong> July 17, 2026 &nbsp;|&nbsp;
+    <strong>Last Updated:</strong> July 17, 2026
+  </p>
+
+  <div class="badge-row">
+    <span class="badge">Developer: liutianyi</span>
+    <span class="badge">App: SeqKid — Visual Attention Training</span>
+    <span class="badge">Platform: Android</span>
+    <span class="badge">Ages: 6+</span>
+  </div>
+
+  <div class="summary-box">
+    ✅ SeqKid collects no personal data, connects to no servers, and shares nothing with anyone — ever.
+  </div>
+
+  <!-- 1 -->
+  <h2>1. Information We Do NOT Collect</h2>
+  <p>SeqKid does <strong>not</strong> collect, transmit, store on any server, or share any of the following:</p>
+  <ul>
+    <li>Personal identifiers (name, email address, phone number, user ID)</li>
+    <li>Device identifiers (IMEI, Android ID, advertising ID)</li>
+    <li>Location data (GPS, network-based, or inferred)</li>
+    <li>Contact lists, call logs, or messages</li>
+    <li>Photos, videos, or files from device storage</li>
+    <li>Microphone or camera input</li>
+    <li>Browsing history or app usage analytics</li>
+    <li>Crash reports or diagnostic data sent off-device</li>
+    <li>Payment or financial information</li>
+  </ul>
+
+  <!-- 2 -->
+  <h2>2. Internet Access</h2>
+  <p>
+    SeqKid does <strong>not</strong> declare the <code>INTERNET</code> permission in its
+    <code>AndroidManifest.xml</code>. The app is technically incapable of making any network
+    connection. There is no analytics endpoint, no ad network, no remote configuration,
+    and no telemetry of any kind.
+  </p>
+
+  <!-- 3 -->
+  <h2>3. Data Stored Locally on Your Device</h2>
+  <p>
+    SeqKid stores a small amount of game data <strong>locally on your device only</strong>,
+    in the app's private internal storage directory (<code>filesDir</code>). This data is never
+    accessible to other apps and is automatically deleted when you uninstall SeqKid.
+  </p>
+  <table>
+    <tr><th>Data</th><th>Purpose</th></tr>
+    <tr><td>Game session records (time, mistakes, star rating, difficulty)</td><td>Display your personal history and best scores</td></tr>
+    <tr><td>Best scores per difficulty level</td><td>Show your personal best on the results screen</td></tr>
+    <tr><td>App settings (sound, dark mode, reminders)</td><td>Remember your preferences between sessions</td></tr>
+  </table>
+  <p>This data exists solely on your device and never leaves it.</p>
+  <p>You can delete all stored data at any time via <strong>Settings → Clear Training Data</strong> inside the app.</p>
+
+  <!-- 4 -->
+  <h2>4. Permissions Requested</h2>
+  <p>SeqKid requests only one Android permission:</p>
+  <table>
+    <tr><th>Permission</th><th>Reason</th></tr>
+    <tr><td><code>WAKE_LOCK</code></td><td>Prevents the screen from turning off while a game session is in progress</td></tr>
+  </table>
+  <p>
+    No storage permission, no camera permission, no microphone permission, no location permission,
+    no contacts permission, and no network permission are requested or used.
+  </p>
+
+  <!-- 5 -->
+  <h2>5. Third-Party SDKs and Services</h2>
+  <p>SeqKid contains <strong>no third-party SDKs</strong> of any kind. Specifically, it does not include:</p>
+  <ul>
+    <li>Advertising SDKs (e.g., Google AdMob, Meta Audience Network)</li>
+    <li>Analytics SDKs (e.g., Firebase Analytics, Mixpanel, Amplitude)</li>
+    <li>Crash-reporting SDKs (e.g., Crashlytics, Sentry)</li>
+    <li>Social login SDKs (e.g., Google Sign-In, Facebook Login)</li>
+    <li>Push notification services</li>
+    <li>Any other service that communicates with external servers</li>
+  </ul>
+  <p>
+    All libraries used (Flutter framework, Riverpod, Isar, GoRouter, etc.) operate entirely
+    on-device and do not transmit data externally.
+  </p>
+
+  <!-- 6 -->
+  <h2>6. Children's Privacy</h2>
+  <p>
+    SeqKid is designed for children aged 6 and above. Because the app collects no personal
+    information whatsoever — from users of any age — it is compliant with children's privacy
+    requirements including <strong>COPPA</strong> (Children's Online Privacy Protection Act)
+    and <strong>GDPR-K</strong> provisions.
+  </p>
+  <p>We do not knowingly collect any information from children or adults. There is nothing to collect.</p>
+
+  <!-- 7 -->
+  <h2>7. Data Security</h2>
+  <p>
+    Because SeqKid does not transmit any data over a network and stores all data locally in
+    the app's private sandbox, there is no external data transmission to secure. Local data is
+    protected by Android's standard app sandboxing — no other app can read SeqKid's data
+    without root access.
+  </p>
+
+  <!-- 8 -->
+  <h2>8. Data Retention and Deletion</h2>
+  <p>All local game data is retained until you either:</p>
+  <ul>
+    <li>Delete it manually via <strong>Settings → Clear Training Data</strong>, or</li>
+    <li>Uninstall the app (Android automatically removes all app-private data on uninstall)</li>
+  </ul>
+  <p>There is no data on any server to delete, as none is ever sent there.</p>
+
+  <!-- 9 -->
+  <h2>9. Changes to This Privacy Policy</h2>
+  <p>
+    If a future update of SeqKid were to change how data is handled, this Privacy Policy would
+    be updated before that version is published, and the "Last Updated" date at the top of this
+    document would be revised. Continued use of the updated version constitutes acceptance of
+    the revised policy.
+  </p>
+  <p>
+    We do not anticipate any changes that would introduce data collection, as offline-first and
+    privacy-by-design are core principles of this app.
+  </p>
+
+  <!-- 10 -->
+  <h2>10. Contact</h2>
+  <p>
+    If you have any questions about this Privacy Policy or the app's data practices,
+    please contact the developer by email:
+  </p>
+  <p><a href="mailto:liutianyi_1989@163.com">liutianyi_1989@163.com</a></p>
+
+  <!-- 11 -->
+  <h2>11. Governing Law</h2>
+  <p>
+    This Privacy Policy is governed by the laws of the People's Republic of China.
+    For users in the European Economic Area, your rights under the GDPR are fully respected
+    by default, as no personal data is processed at all (Article 2 of the GDPR applies —
+    the Regulation does not apply to processing of data by a natural person in the course of
+    a purely personal activity with no external data flow).
+  </p>
+
+  <div class="footer">
+    This privacy policy is publicly accessible at
+    <a href="https://lty1989.github.io/seqkid-privacy/">https://lty1989.github.io/seqkid-privacy/</a>
+  </div>
+
+</div>
 </body>
 </html>
